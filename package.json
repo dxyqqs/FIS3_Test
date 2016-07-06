@@ -19,6 +19,8 @@
   "author": "dxy",
   "license": "MIT",
   "dependencies": {
+    "fis-parser-babel-5.x": "^1.4.0",
+    "fis-parser-babel-6.x": "^1.0.0",
     "fis3-hook-commonjs": "^0.1.22",
     "fis3-postpackager-loader": "^2.0.4"
   },
