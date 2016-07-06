@@ -19,7 +19,8 @@
   "author": "dxy",
   "license": "MIT",
   "dependencies": {
-    "fis3-hook-commonjs": "^0.1.22"
+    "fis3-hook-commonjs": "^0.1.22",
+    "fis3-postpackager-loader": "^2.0.4"
   },
-  "testPath":"react"
+  "testPath": "react"
 }

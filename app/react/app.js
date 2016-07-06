@@ -1,3 +1,4 @@
-var a = require('./comp/1/1.js');
+require(['./comp/1/1.js'],function(a){
+    console.log(a);
+});
 
-console.log(a.value);
