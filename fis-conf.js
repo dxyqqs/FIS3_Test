@@ -1,15 +1,12 @@
 //fis config
 var path = require('path');
 var init = require("./package.json");
-var projectPath = "/app/"+init.testPath+"/";
-console.log(projectPath);
-
-// fis.set('projec.ignore',function(){
-//   var ignore = fis.get('projec.ignore');
-//   [].push.call(ignore,['.git/**','clone/**','dist/**','.gitignore']
-//   return ignore;
-// }());
-
+var filesIgnore = fis.get('project.ignore');
+[].push.apply(filesIgnore,['.git/**','clone/**','dist/**','.gitignore',"LICENSE"]);
+fis.set('project.ignore',filesIgnore);
+fis.match("/app/**",{
+  release:false
+})
 fis.match("/app/("+init.testPath+"/**)",{
   release:'$1'
 })
