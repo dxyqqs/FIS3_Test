@@ -14,5 +14,9 @@
     "none"
   ],
   "author": "dxy",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fis3-hook-commonjs": "^0.1.22"
+  },
+  "testPath":"react"
 }
