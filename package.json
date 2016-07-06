@@ -4,10 +4,10 @@
   "description": "none",
   "main": "index.js",
   "scripts": {
-    "fisR": "fis3 release -d ./dist",
-    "fisC": "fis3 server --root ./dist clean",
-    "fisO": "fis3 server --root ./dist start",
-    "fisS": "fis3 server --root ./dist stop"
+    "release": "fis3 release -d ./dist",
+    "clean": "fis3 server --root ./dist clean",
+    "start": "fis3 server --root ./dist start",
+    "stop": "fis3 server --root ./dist stop"
   },
   "repository": {
     "type": "git",
