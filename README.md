@@ -5,3 +5,6 @@
 
 ### 2016-07-07
 - React开发请参考[这篇文章](http://fex.baidu.com/blog/2016/04/develop-react-with-fis3/)
+
+### 2016-07-15
+- es6 中模块导出 建议使用export {} 或者 export default name

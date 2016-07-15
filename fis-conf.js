@@ -56,7 +56,8 @@ fis.match('::package',{
 
 })
 
-//fis.match('*.js', {
-//    packTo: init.testPath+'/aio.js'
-//});
+fis.match("/app/"+init.testPath+"/libs/react*.js", {
+    //release:false,
+    packTo: init.testPath+'/libs/react1.js'
+});
 
